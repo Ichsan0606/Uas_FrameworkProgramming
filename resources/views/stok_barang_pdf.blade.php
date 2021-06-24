@@ -27,7 +27,6 @@
 </style>
 </head>
 <body>
-<h1> Data Barang </h1>
 <table align="center" width="80%" border="1">
   <tr>
     <th>No</th>
