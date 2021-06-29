@@ -4,7 +4,10 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Edit Data</h2>
+            <br>
+                <center><h2>Edit Data</h2></center>
+                <br>
+                <br>
             </div>
         </div>
     </div>
@@ -24,20 +27,20 @@
         @csrf
         @method('PUT')
    
-         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="row justify-content-center">
+            <div class="col-xs-8 col-sm-8 col-md-8">
                 <div class="form-group">
                     <strong>Katagori Barang</strong>
                     <input type="text" name="katagori_barang" value="{{ $stok_barang->katagori_barang }}" class="form-control" placeholder="Katagori Barang">
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="col-xs-8 col-sm-8 col-md-8">
                 <div class="form-group">
                     <strong>Nama Barang</strong>
                     <input type="text" name="nama_barang" value="{{ $stok_barang->nama_barang }}" class="form-control" placeholder="Nama Barang">
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="col-xs-8 col-sm-8 col-md-8">
                 <div class="form-group">
                     <strong>jumlah Stok</strong>
                     <input type="number" name="jml_stok" value="{{ $stok_barang->jml_stok }}" class="form-control" placeholder="jumlah Stok">
@@ -48,12 +51,12 @@
                     <label>Image</label>
                     <input type="file" name="image" class="form-control" placeholder="image">
                     <br>
-                    <img src="/image/{{ $stok_barang->image }}" width="300px">
+                    <img src="/image/{{ $stok_barang->image }}" width="150px">
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="col-xs-8 col-sm-8 col-md-8">
                 <button type="submit" class="btn btn-primary">Simpan</button>
-                <a class="btn btn-dark" href="{{ route('stok_barang.index') }}"> Kembali</a>
+                <a class="btn btn-warning" href="{{ route('stok_barang.index') }}"> Kembali</a>
             </div>
         </div>
    

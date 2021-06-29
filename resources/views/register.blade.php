@@ -17,7 +17,7 @@
                 <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-5">
-                                <div class="card rounded-lg mt-5">
+                                <div class="card rounded-lg mt-4">
                                 <div class="card-header">
                                 <h3 class="text-center">Register</h3>
                             </div>
@@ -55,8 +55,7 @@
                                         </div>
                                     </div>
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary btn-block">Register</button>
-                                        <br>
+                                        <button type="submit" class="btn btn-success btn-block">Buat Akun</button>
                                         <p class="text-center">Sudah punya akun? <a href="{{ route('login') }}">Login</a> sekarang!</p>
                                     </div>
                                     </form>

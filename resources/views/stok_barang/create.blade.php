@@ -4,7 +4,10 @@
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">
-            <h2>Tambah Data</h2>
+        <br>
+            <center><h2>Tambah Data</h2></center>
+            <br>
+            <br>
         </div>
     </div>
 </div>
@@ -44,13 +47,13 @@
         </div>
         <div class="col-xs-8 col-sm-8 col-md-8">
             <div class="form-group">
-                <label>Image</label>
+                <strong>Picture</strong>
                 <input type="file" name="image" class="form-control" placeholder="image">
             </div>
         </div>
         <div class="col-xs-8 col-sm-8 col-md-8">
             <button type="submit" class="btn btn-primary">Simpan</button>
-            <a class="btn btn-dark" href="{{ route('stok_barang.index') }}"> Kembali</a>
+            <a class="btn btn-warning" href="{{ route('stok_barang.index') }}"> Kembali</a>
         </div>
     </div>
 

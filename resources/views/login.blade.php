@@ -8,7 +8,7 @@
             content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta name="description" content=""/>
         <meta name="author" content=""/>
-        <title>Login</title>
+        <title>Halaman Login</title>
         <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -63,9 +63,8 @@
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <button type="submit" class="btn btn-primary btn-block">Log In</button>
-                                    <br>
-                                    <p class="text-center">Tidak punya akun? <a href="{{ route('register') }}">Register</p>
+                                    <button type="submit" class="btn btn-success btn-block">Login</button>
+                                    <p class="text-center">Tidak punya akun? <a href="{{ route('register') }}"> Buat Akun</p>
                                 </div>
                                 </form>
                             </div>
